@@ -20,7 +20,9 @@ Clone or download the repository:
 chmod +x 000-homebrew.sh
 ./000-homebrew.sh
 ```
-- This installs [Homebrew](https://brew.sh/) (if not already installed) and the toolchain required to compile `dynr` models.  
+
+- This installs [Homebrew](https://brew.sh/) (if not already installed) in user space — no administrator rights required — and sets up the toolchain needed to compile `dynr` models.
+- If Homebrew is already present on your system, the script will reuse it.
 
 ## Setup in R
 
