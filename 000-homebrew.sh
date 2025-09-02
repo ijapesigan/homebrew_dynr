@@ -91,7 +91,7 @@ if ! brew update; then
 fi
 
 # Install formulae (idempotent; brew will skip if satisfied)
-PKGS=( llvm gcc pkg-config gsl )
+PKGS=( llvm gcc pkg-config gsl r )
 if ! brew install "${PKGS[@]}"; then
   printf "NOTE: 'brew install' returned non-zero. This may be benign if packages already installed.\n"
 fi
