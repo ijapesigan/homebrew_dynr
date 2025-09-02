@@ -6,8 +6,6 @@
 # Installs: llvm, gcc (incl. gfortran), pkg-config, gsl
 # Wires PATH/CC/CXX/FC/F77 and PKG_CONFIG/PKG_CONFIG_PATH into ~/.Renviron.
 # Idempotent: safe to re-run.
-#
-# Usage: bash bootstrap-brew-r-toolchain.sh
 
 set -uo pipefail
 
